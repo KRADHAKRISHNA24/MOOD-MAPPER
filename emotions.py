@@ -3,8 +3,8 @@ import pickle
 import base64
 
 #Load the trained model
-with open(r"Emotion.pkl", 'rb') as model_file:
-    model = pickle.load(model_file)
+model=pickle.load(open(r"Emotion.pkl", 'rb'))
+
 
 #Define the label to image path mapping
 label_to_image = {
