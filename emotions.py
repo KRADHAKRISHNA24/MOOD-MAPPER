@@ -13,7 +13,7 @@ label_to_image = {
     "Love": r"Heart_Eyes_Emoji.png",
     "Anger": r"Angry_Emoji.png",
     "Fear": r"Fearful_Face_Emoji.png",
-    "Surprise": r"surprised-face.png"
+    "Surprise": r"Surprised_Emoji.png"
 }
 
 def get_image_base64(image_path):
